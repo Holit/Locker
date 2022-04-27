@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locker", "Locker\Locker.csproj", "{F54B371B-AAF8-47A4-912A-D9C7E1738738}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "工具类", "工具类", "{C83831AE-22C1-430C-B231-F8B4F8FB0DC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azylee.Core", "Locker\Common.Utils\Azylee.Core\Azylee.Core.csproj", "{88DC61FA-95F0-41B7-9D7D-AB0F3CBD169C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F54B371B-AAF8-47A4-912A-D9C7E1738738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F54B371B-AAF8-47A4-912A-D9C7E1738738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F54B371B-AAF8-47A4-912A-D9C7E1738738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F54B371B-AAF8-47A4-912A-D9C7E1738738}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88DC61FA-95F0-41B7-9D7D-AB0F3CBD169C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88DC61FA-95F0-41B7-9D7D-AB0F3CBD169C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88DC61FA-95F0-41B7-9D7D-AB0F3CBD169C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88DC61FA-95F0-41B7-9D7D-AB0F3CBD169C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{88DC61FA-95F0-41B7-9D7D-AB0F3CBD169C} = {C83831AE-22C1-430C-B231-F8B4F8FB0DC0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68626327-3747-40C5-AB37-3E597DD962BA}
+	EndGlobalSection
+EndGlobal
